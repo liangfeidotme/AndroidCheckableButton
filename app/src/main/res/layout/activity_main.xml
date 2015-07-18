@@ -1,68 +1,73 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_marginLeft="20dp"
     android:layout_marginRight="20dp"
-    android:layout_width="340dp"
-    android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:text="选购热点"
-        android:textSize="16sp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="选购热点"
+        android:textSize="16sp" />
 
     <com.liangfeizc.flowlayout.FlowLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
         app:horizontal_spacing="18dp"
         app:vertical_spacing="10dp">
 
-        <com.liangfeizc.androidbuttons.CheckableButton
+        <com.liangfeizc.checkablebutton.CheckableButton
             android:layout_width="88dp"
             android:layout_height="32dp"
             android:background="@drawable/checkable_background"
             android:text="衣物"
-            android:textSize="14sp"
-            android:textColor="@color/checkable_text_color" />
-        <com.liangfeizc.androidbuttons.CheckableButton
+            android:textColor="@color/checkable_text_color"
+            android:textSize="14sp" />
+
+        <com.liangfeizc.checkablebutton.CheckableButton
             android:layout_width="88dp"
             android:layout_height="32dp"
             android:background="@drawable/checkable_background_secondary"
             android:text="帽子"
-            android:textSize="14sp"
-            android:textColor="@color/checkable_text_color" />
-        <com.liangfeizc.androidbuttons.CheckableButton
+            android:textColor="@color/checkable_text_color"
+            android:textSize="14sp" />
+
+        <com.liangfeizc.checkablebutton.CheckableButton
             android:layout_width="88dp"
             android:layout_height="32dp"
             android:background="@drawable/checkable_background"
             android:text="内裤"
-            android:textSize="14sp"
-            android:textColor="@color/checkable_text_color" />
-        <com.liangfeizc.androidbuttons.CheckableButton
+            android:textColor="@color/checkable_text_color"
+            android:textSize="14sp" />
+
+        <com.liangfeizc.checkablebutton.CheckableButton
             android:layout_width="88dp"
             android:layout_height="32dp"
             android:background="@drawable/checkable_background"
             android:text="衣物"
-            android:textSize="14sp"
-            android:textColor="@color/checkable_text_color" />
-        <com.liangfeizc.androidbuttons.CheckableButton
+            android:textColor="@color/checkable_text_color"
+            android:textSize="14sp" />
+
+        <com.liangfeizc.checkablebutton.CheckableButton
             android:layout_width="88dp"
             android:layout_height="32dp"
             android:background="@drawable/checkable_background"
             android:text="帽子"
-            android:textSize="14sp"
-            android:textColor="@color/checkable_text_color" />
-        <com.liangfeizc.androidbuttons.CheckableButton
+            android:textColor="@color/checkable_text_color"
+            android:textSize="14sp" />
+
+        <com.liangfeizc.checkablebutton.CheckableButton
             android:layout_width="88dp"
             android:layout_height="32dp"
             android:background="@drawable/checkable_background"
             android:text="内裤"
-            android:textSize="14sp"
-            android:textColor="@color/checkable_text_color" />
+            android:textColor="@color/checkable_text_color"
+            android:textSize="14sp" />
     </com.liangfeizc.flowlayout.FlowLayout>
 </LinearLayout>

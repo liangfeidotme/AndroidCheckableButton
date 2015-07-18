@@ -1,4 +1,4 @@
-package com.liangfeizc.androidbuttons;
+package com.liangfeizc.checkablebutton;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -6,7 +6,9 @@ import android.widget.Button;
 import android.widget.Checkable;
 
 /**
- * Created by liangfei on 4/1/15.
+ * A checkable button which has two states (selected and unselected)
+ *
+ * @author liangfeizc
  */
 public class CheckableButton extends Button implements Checkable {
     private boolean mChecked;
@@ -89,7 +91,7 @@ public class CheckableButton extends Button implements Checkable {
      * Interface definition for a callback to be invoked when the checked state
      * of a checkable button changed.
      */
-    public static interface OnCheckedChangeListener {
+    public interface OnCheckedChangeListener {
         /**
          * Called when the checked state of a checkable button has changed.
          *
